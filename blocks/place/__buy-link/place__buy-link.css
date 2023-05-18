@@ -1,3 +1,36 @@
 .place__buy-link {
   grid-area: anchor;
+  margin: 0;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 1.36;
+  font-weight: 600;
+  background-color: #0278FE;
+  border: #0278FE;
+  width: 264px;
+  padding: 13px 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  align-self: flex-start;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.place__buy-link:hover {
+  background-color: #0063D2;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__buy-link {
+    width: 288px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 13px 12px;
+  }
 }
