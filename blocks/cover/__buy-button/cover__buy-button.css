@@ -1,0 +1,21 @@
+.cover__buy-button {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.21;
+  color: #FFFFFF;
+  background-color: #0278FE;
+  border: #0278FE;
+  width: 137px;
+  height: 48px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.cover__buy-button:hover {
+  background-color: #0063D2;
+  cursor: pointer;
+}

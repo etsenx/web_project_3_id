@@ -1,0 +1,13 @@
+.logo {
+  image-rendering: auto;
+  width: 270px;
+  height: 70px;
+  margin: 34px auto 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo {
+    width: 200px;
+    height: 51.85px;
+  }
+}

@@ -1,0 +1,11 @@
+.place__person {
+  margin-bottom: 26px;
+  grid-area: person;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .place__person {
+    width: 352px;
+  }
+}
