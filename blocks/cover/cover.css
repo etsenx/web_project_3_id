@@ -3,7 +3,7 @@
   margin: 93px auto;
   text-align: center;
   width: 1184px;
-  height: 740px;
+  min-height: 740px;
   overflow: hidden;
 }
 
@@ -18,6 +18,6 @@
   .cover {
     margin: 93px auto;
     width: 320px;
-    height: 254px;
+    min-height: 254px;
   }
 }
